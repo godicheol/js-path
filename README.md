@@ -1,7 +1,7 @@
 ## Usage
 
 ```js
-import jsPath from 'javascript-path';
+import jsPath from 'js-path';
 ```
 
 ```js
