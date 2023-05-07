@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        html,body,h1,h2,h3,h4,h5,h6,p,span,ul,ol,li,table,thead,tbody,tr,th,td{
+            margin: 0; padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./index.js"></script>
+    <script>
+        var { join, parse } = jsPath;
+
+        console.log(join("/dir1", "dir2", "dir3/dir4/dir5"));
+        console.log(join("/dir1", "dir2", "dir3/dir4/dir5", ".."));
+        console.log(parse("/dir1", "dir2", "dir3/dir4/dir5", "gg.txt"));
+    </script>
+</body>
+
+</html>
